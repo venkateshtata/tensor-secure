@@ -5,7 +5,7 @@ is familiar or not.
 
 The above ANN is currently trained with the images of animals, if you want to train your device woth your face, then remove
 the file named "weights-classifier.hdf5", which has the weights of the prevously trained neurons, and run the "cnn.py" file 
-in your terminal, then a new weight valued file gets created, which has the training data of your face.
+in your terminal, then a new weight valued file gets created, which has the training data of your face. A ts.jpg image file get created temporarily every time a new image gets scanned, as that will be the path our tensoflow function is going to take the test image from, inorder to predict.
 
 Any doubts, mail me at "venkateshtata9@gmail.com".
 Thankyou.
